@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/recycler">
+
+        <TextView
+            android:id="@+id/broj_naloga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Broj"
+            android:textColor="#222"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vrijeme_kreiranja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Vrijeme"
+            android:textColor="#222"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/pocetna_pozicija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/broj_naloga"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Start"
+            android:textColor="#222"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/zavrsna_pozicija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/pocetna_pozicija"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="date"
+            android:textColor="#222"
+            android:textSize="15sp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nalozi"
+            android:icon="@drawable/ic_nalozi"
+            android:title="Nalozi" />
+        <item
+            android:id="@+id/nav_ruta"
+            android:icon="@drawable/ic_ruta"
+            android:title="Ruta" />
+        <item
+            android:id="@+id/nav_zadaci"
+            android:icon="@drawable/ic_zadaci"
+            android:title="Zadaci" />
+        <item
+            android:id="@+id/nav_poruke"
+            android:icon="@drawable/ic_poruke"
+            android:title="Poruke" />
+        <item
+            android:id="@+id/nav_pregled"
+            android:icon="@drawable/ic_pregled"
+            android:title="Pregled" />
+        <item
+            android:id="@+id/nav_statistika"
+            android:icon="@drawable/ic_statistika"
+            android:title="Statistika" />
+    </group>
+
+</menu>
